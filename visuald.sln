@@ -1,15 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c2d", "c2d\c2d.vcproj", "{ABE0389D-7D3F-4D5E-AE0E-C871776E86AF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "visuald", "visuald\visuald.vcproj", "{CCC0389D-7D3F-4D5E-AE0E-C871776E86AF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{ABE0329D-553F-4D5E-AE0E-C871776E8987} = {ABE0329D-553F-4D5E-AE0E-C871776E8987}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vsi", "sdk\vsi.vcproj", "{ABE0329D-553F-4D5E-AE0E-C871776E8987}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BC571AF-BE25-49A2-9634-36544F50DB4A}"
 	ProjectSection(SolutionItems) = preProject
 		CHANGES = CHANGES
@@ -18,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README = README
 		VERSION = VERSION
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c2d", "c2d\c2d.vcxproj", "{ABE0389D-7D3F-4D5E-AE0E-C871776E86AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "visuald", "visuald\visuald.vcxproj", "{CCC0389D-7D3F-4D5E-AE0E-C871776E86AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vsi", "sdk\vsi.vcxproj", "{ABE0329D-553F-4D5E-AE0E-C871776E8987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

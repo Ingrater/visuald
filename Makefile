@@ -13,24 +13,25 @@
 # update the following variables to match the installation 
 # paths on your system
 
-DMD2 = m:\s\d\rainers\windows\bin\dmd_msc.exe
+DMD2 = C:\digital-mars\dmd2\windows\bin\dmd.exe
 # DMD2 = c:\l\dmd2\windows\bin\dmd.exe
 # DMD2 = c:\l\dmd2beta\windows\bin\dmd.exe
-COFFIMPLIB = c:\l\dmc\bin\coffimplib.exe
+COFFIMPLIB = C:\digital-mars\dm\bin\coffimplib.exe
 
 # avoid trailing '\', it ruins the command line
+WINSDK = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A
 # WINSDK = $(WINDOWSSDKDIR:\=/)
 # WINSDK = $(PROGRAMFILES)\Microsoft SDKs\Windows\v6.0A
 # WINSDK = $(PROGRAMW6432)\Microsoft SDKs\Windows\v6.0A
 # WINSDK = $(PROGRAMFILES)\Microsoft SDKs\Windows\v7.0A
 # WINSDK = $(PROGRAMFILES)\Microsoft SDKs\Windows\v7.1
-WINSDK = $(PROGRAMFILES)\Windows Kits\8.0
+# WINSDK = $(PROGRAMFILES)\Windows Kits\8.0
 # WINSDK = c:\l\vs11\Windows Kits\8.0
-VSISDK = c:\l\vs9SDK
+# VSISDK = c:\l\vs9SDK
 # VSISDK = c:\l\vs10SDK
 # VSISDK = c:\l\vs11\VSSDK
 # VSISDK = $(PROGRAMFILES)\Microsoft Visual Studio 2008 SDK
-# VSISDK = $(PROGRAMFILES)\Microsoft Visual Studio 2010 SDK
+VSISDK = $(PROGRAMFILES)\Microsoft Visual Studio 2010 SDK
 MSENV  = $(COMMONPROGRAMFILES)\Microsoft Shared\MSEnv
 NSIS   = $(PROGRAMFILES)\NSIS
 CV2PDB = $(PROGRAMFILES)\VisualD\cv2pdb\cv2pdb.exe
