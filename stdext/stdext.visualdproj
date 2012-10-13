@@ -45,7 +45,7 @@
   <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
   <compiler>0</compiler>
   <otherDMD>0</otherDMD>
-  <program>m:\s\d\rainers\windows\bin\dmd_msc.exe</program>
+  <program>C:\digital-mars\dmd2\windows\bin-org\dmd.exe</program>
   <imppath>..</imppath>
   <fileImppath />
   <outdir>..\bin\$(ConfigurationName)</outdir>
