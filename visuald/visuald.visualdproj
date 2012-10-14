@@ -136,7 +136,7 @@
   <Dversion>2</Dversion>
   <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
   <compiler>0</compiler>
-  <otherDMD>1</otherDMD>
+  <otherDMD>0</otherDMD>
   <program>m:\s\d\rainers\windows\bin\dmd.exe</program>
   <imppath>..</imppath>
   <fileImppath>..;resources</fileImppath>
@@ -189,6 +189,14 @@
    <File path="workaround.d" />
   </Folder>
   <Folder name="language">
+   <Folder name="project">
+    <File path="build.d" />
+    <File path="chiercontainer.d" />
+    <File path="chiernode.d" />
+    <File path="config.d" />
+    <File path="dproject.d" />
+    <File path="hierarchy.d" />
+   </Folder>
    <File path="colorizer.d" />
    <File path="completion.d" />
    <File path="cppwizard.d" />
@@ -197,14 +205,6 @@
    <File path="simpleparser.d" />
    <File path="vdserverclient.d" />
    <File path="viewfilter.d" />
-  </Folder>
-  <Folder name="project">
-   <File path="build.d" />
-   <File path="chiercontainer.d" />
-   <File path="chiernode.d" />
-   <File path="config.d" />
-   <File path="dproject.d" />
-   <File path="hierarchy.d" />
   </Folder>
   <Folder name="Resources">
    <File path="Resources\AlternateRowColor.ico" />
